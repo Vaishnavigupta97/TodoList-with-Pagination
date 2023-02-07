@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  margin: 1% auto;
+  padding: 1%;
+  width: 20%;
+  text-align: center;
+  /* margin: 2% 0%; */
+  box-shadow: rgb(227 77 32 / 20%) 0px 7px 29px 0px;
+}
+input{
+  border: 1px solid grey;
+  width: 60%;
+  padding: 1% 2%;
+  font-size: 15px;
+  border-radius: 5px; 
+}
+.inputBoxList{
+  display: flex;
+    justify-content: space-evenly;
+}
+form{
+  margin: 1% 0%;
+  width: 30%;
+}
+.todo-list {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+}
+
+.todo-card {
+  background-image: linear-gradient(to right, blue , white);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+.todo-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.pinCard{
+  background-color: #aafbaa;
+  border: 1px solid #403e3e;
+  padding: 2% 6%;
+}
+.delCard{
+  background-color: #f74444;
+  border: 1px solid #403e3e;
+  padding: 2% 6%;
+  color: white;
+
+}
+.todo-card p{
+  font-size: 20px;
+  color: white;
+  line-height: 1.4;
+}
+button {
+  background-color: orange;
+  border: 1px solid gray;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5% 0%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 45%;
+}
+
+.pagination span {
+  background-color: lightgray;
+  border-radius: 5px;
+  margin: 0 10px;
+  padding: 5px 20px;
+  font-size: 20px;
+}
+
+.pagination span.active {
+  background-color: gray;
+  color: white;
+}
